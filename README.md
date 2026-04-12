@@ -47,17 +47,28 @@ firebase deploy --only hosting
 ## Štruktúra projektu
 
 ```
-src/
-├── App.vue              # Hlavný komponent s navigáciou
-├── main.js              # Vstupný bod aplikácie
-├── router.js            # Vue Router (SPA routovanie)
-├── auth.js              # Autentifikácia a správa používateľov
-├── firebase.js          # Firebase konfigurácia
-├── style.css            # Globálne štýly
-└── components/
-    ├── ParkingData.vue      # Hlavná stránka — mapa a štatistiky
-    ├── AuthPage.vue         # Prihlásenie
-    ├── AccountPage.vue      # Správa účtu
-    ├── AdminDashboard.vue   # Admin panel
-    └── ESPStatusPanel.vue   # Monitoring ESP zariadenia
+Smart-Parkovisko/
+├── Ardunio - ESP/
+│   ├── Arduino-Smart-Parkovisko-Arduino.ino   # Arduino kód (senzory)
+│   └── Arduino_Smart_Parkovisko-ESP.ino       # ESP kód (WiFi + Firebase)
+├── public/
+│   ├── logo.png
+│   └── parking-lot.png
+├── src/
+│   ├── App.vue              # Hlavný komponent s navigáciou
+│   ├── main.js              # Vstupný bod aplikácie
+│   ├── router.js            # Vue Router (SPA routovanie)
+│   ├── auth.js              # Autentifikácia a správa používateľov
+│   ├── firebase.js          # Firebase konfigurácia
+│   ├── style.css            # Globálne štýly
+│   └── components/
+│       ├── ParkingData.vue      # Hlavná stránka — mapa a štatistiky
+│       ├── AuthPage.vue         # Prihlásenie
+│       ├── AccountPage.vue      # Správa účtu
+│       ├── AdminDashboard.vue   # Admin panel
+│       └── ESPStatusPanel.vue   # Monitoring ESP zariadenia
+├── firebase.json
+├── index.html
+├── package.json
+└── vite.config.js
 ```
