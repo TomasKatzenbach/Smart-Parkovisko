@@ -48,7 +48,7 @@ firebase deploy --only hosting
 
 ```
 Smart-Parkovisko/
-├── Ardunio - ESP/
+├── Arduino - ESP/
 │   ├── Arduino-Smart-Parkovisko-Arduino.ino   # Arduino kód (senzory)
 │   └── Arduino_Smart_Parkovisko-ESP.ino       # ESP kód (WiFi + Firebase)
 ├── public/
