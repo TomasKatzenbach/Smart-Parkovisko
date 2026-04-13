@@ -68,7 +68,7 @@ onMounted(() => {
   espStatusUnsubscribe = onValue(espStatusRef, (snapshot) => {
     espStatus.value = snapshot.exists() ? snapshot.val() : null
   }, () => {
-    espStatus.value = { timestamp: Math.floor(Date.now() / 1000) }
+    espStatus.value = null
   })
 
   timeRefreshTimer = window.setInterval(() => {
