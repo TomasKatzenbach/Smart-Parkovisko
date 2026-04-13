@@ -186,12 +186,12 @@ onBeforeUnmount(() => {
 
     <div v-if="!loading && !error" class="stats-container">
       <div class="stat-card">
-        <div class="stat-number free">{{ freeSpots }}</div>
+        <div class="stat-number free">{{ espOffline ? '?' : freeSpots }}</div>
         <div class="stat-label">Voľných miest</div>
       </div>
 
       <div class="stat-card">
-        <div class="stat-number occupied">{{ occupiedSpots }}</div>
+        <div class="stat-number occupied">{{ espOffline ? '?' : occupiedSpots }}</div>
         <div class="stat-label">Obsadených miest</div>
       </div>
 
