@@ -39,12 +39,6 @@ npm run dev
 npm run build
 ```
 
-## Deploy na Firebase
-
-```bash
-firebase deploy --only hosting
-```
-
 ## Štruktúra projektu
 
 ```
