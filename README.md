@@ -1,7 +1,7 @@
 # Smart Parkovisko
 
 Webová aplikácia pre monitorovanie obsadenosti parkoviska v reálnom čase. Súčasť bakalárskej práce.
-Videodokumentácia sa nachádza v priečinku Videodokumentácia/Videodokumentácia_Katzenbach.mp4
+Foto a Videodokumentácia sa nachádza v priečinku Foto-Videodokumentácia.
 
 ## Technológie
 
@@ -62,7 +62,19 @@ Smart-Parkovisko/
 │       ├── AccountPage.vue      # Správa účtu
 │       ├── AdminDashboard.vue   # Admin panel
 │       └── ESPStatusPanel.vue   # Monitoring ESP zariadenia
-├── VideoDokumentácia/
+├── Foto-VideoDokumentácia/
+│   ├── admin_dashboard_1_dark.png
+│   ├── admin_dashboard_1.png
+│   ├── admin_dashboard_2_dark.png
+│   ├── admin_dashboard_2.png
+│   ├── login_page_dark.png
+│   ├── login_page.png
+│   ├── main_page_1_dark.png
+│   ├── main_page_1.png
+│   ├── main_page_2_dark.png
+│   ├── main_page_2.png
+│   ├── profile_page_dark.png
+│   ├── profile_page.png
 │   ├── Videodokumentácia_Katzenbach.mp4
 ├── firebase.json
 ├── index.html
